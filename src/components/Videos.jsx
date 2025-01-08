@@ -1,4 +1,5 @@
 import React from "react";
+import { aboutVideo1, aboutVideo2 } from "../assets/Index";
 
 const Videos = () => {
   return (
@@ -9,10 +10,13 @@ const Videos = () => {
           {/* Left Section */}
           <div className="lg:w-1/4 p-4">
             <div className="flex flex-col items-center gap-8 sm:gap-32">
-              <img
-                className="rounded-lg w-full max-w-xs opacity-50"
-                src="https://cdn.prod.website-files.com/66964d12f0212962622e6bd4/6697a2a1a3fd1bd464960103_about-01.jpg"
+              <video
+                className="rounded-lg w-full max-w-xs "
+                src={aboutVideo2}
                 alt=""
+                autoPlay
+                loop
+                muted
               />
               <p className="text-[#aca0cf] text-sm sm:text-lg text-center lg:text-left">
                 Sociallywiredinc is a group of dedicated and innovative social
@@ -29,7 +33,7 @@ const Videos = () => {
           <div className="lg:w-1/2 p-10">
             <h1 className="text-[#f3efff] text-3xl sm:text-5xl lg:text-[7rem] font-bold text-center px-4">
               Amplify Optimize Monetize Your Social <br />
-               Platforms
+              Platforms
             </h1>
           </div>
           {/* Right Section */}
@@ -43,10 +47,13 @@ const Videos = () => {
                   Successful events planned
                 </h1>
               </div>
-              <img
-                className="rounded-lg w-full max-w-xs opacity-50"
-                src="https://cdn.prod.website-files.com/66964d12f0212962622e6bd4/6697a2a1032bbe36fa1d3e64_about-02.jpg"
+              <video
+                className="rounded-lg w-full max-w-xs "
+                src={aboutVideo1}
                 alt=""
+                autoPlay
+                loop
+                muted
               />
             </div>
           </div>

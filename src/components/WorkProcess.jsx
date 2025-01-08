@@ -14,6 +14,7 @@ export default function WorkProcess() {
     >
       <div className="text-white text-center w-full lg:w-1/3 pb-14 py-10 px-6 lg:sticky top-0">
         <h1 className="text-5xl font-bold capitalize">Services</h1>
+
       </div>
       <section
         ref={targetRef}

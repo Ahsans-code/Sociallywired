@@ -1,5 +1,7 @@
 export {default as work1} from './work1.jpeg'
 export {default as work2} from './work2.jpeg'
+export {default as aboutVideo1} from './aboutVideo1.mp4'
+export {default as aboutVideo2} from './aboutVideo2.mp4'
 export {default as work3} from './work3.jpeg'
 export {default as slider1} from "./sliderLogo/GE_vertical-1-1024x779.png";
 export {default as slider2} from "./sliderLogo/logo_light.webp";

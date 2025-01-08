@@ -103,7 +103,7 @@ const CreativeWorks = () => {
             </div> */}
 
           {/* Carousel */}
-          <div className="relative flex overflow-hidden w-full lg:w-[900px] h-[60vh] lg:h-[100vh] lg:pl-32">
+          <div className="relative flex overflow-hidden w-full lg:w-[1000px] h-[60vh] lg:h-[100vh] lg:px-32">
             <div
               className="flex items-center transition-transform duration-[1000ms] ease-in-out"
               style={{

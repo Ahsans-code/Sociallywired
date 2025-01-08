@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const PrivacyPolicy = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
     <div className=" sm:p-10 sm:px-40 m-6 sm:py-32">
       <h1 className="text-5xl  font-bold pb-6 text-center">Privacy Policy</h1>
 
-      <p className="pb-6 font-thin text-lg border-b-2 ">
+      <p className="pb-6  font-normal text-lg border-b-2 ">
         Welcome to our Privacy Policy! This document elucidates how your
         personal information is collected, utilized, and shared when you visit{" "}
         <a
@@ -24,7 +27,7 @@ const PrivacyPolicy = () => {
         Personal Information We Collect
       </h2>
 
-      <p className="pb-6  font-thin text-lg">
+      <p className="pb-6   font-normal text-lg">
         Upon visiting the Site, we automatically gather specific details about
         your device, including your web browser, IP address, time zone, and
         certain cookies installed on your device. As you navigate through the
@@ -34,14 +37,14 @@ const PrivacyPolicy = () => {
         automatically collected data as “Device Information.”
       </p>
 
-      <p className="pb-6  font-thin text-lg">
+      <p className="pb-6   font-normal text-lg">
         When you make a purchase or attempt to do so on the Site, we collect
         certain details from you, such as your name, billing and shipping
         addresses, payment information, email, and phone number. This is
         referred to as “Order Information.”
       </p>
 
-      <p className="pb-6  font-thin text-lg border-b-2">
+      <p className="pb-6   font-normal text-lg border-b-2">
         Throughout this Privacy Policy, the term “Personal Information”
         encompasses both Device Information and Order Information.
       </p>
@@ -50,14 +53,14 @@ const PrivacyPolicy = () => {
         How Do We Use Your Personal Information?
       </h2>
 
-      <p className="pb-6  font-thin text-lg">
+      <p className="pb-6   font-normal text-lg">
         We primarily utilize the Order Information we collect to fulfill orders
         placed through the Site, which includes processing your payment,
         arranging shipping, and sending you invoices or order confirmations.
         Additionally, we use this information to:
       </p>
 
-      <ul className="list-disc pl-5  font-thin text-lg pb-6">
+      <ul className="list-disc pl-5   font-normal text-lg pb-6">
         <li>Communicate with you effectively</li>
         <li>Screen orders for potential risks or fraudulent activity</li>
         <li>
@@ -66,7 +69,7 @@ const PrivacyPolicy = () => {
         </li>
       </ul>
 
-      <p className="pb-6  font-thin text-lg border-b-2">
+      <p className="pb-6   font-normal text-lg border-b-2">
         Regarding Device Information, we use it to help identify and prevent
         potential risks or fraud (especially by monitoring your IP address), and
         more broadly, to enhance our Site. This includes generating analytics to
@@ -76,21 +79,21 @@ const PrivacyPolicy = () => {
 
       <h2 className="text-2xl  font-bold pb-4 mt-4">Data Retention</h2>
 
-      <p className="pb-6  font-thin text-lg border-b-2">
+      <p className="pb-6   font-normal text-lg border-b-2">
         When you place an order through the Site, we will retain your Order
         Information for our records unless you request its deletion.
       </p>
 
       <h2 className="text-2xl  font-bold pb-4 mt-4">Changes</h2>
 
-      <p className="pb-6  font-thin text-lg border-b-2">
+      <p className="pb-6   font-normal text-lg border-b-2">
         We may update this privacy policy periodically to reflect changes to our
         practices or for other operational, legal, or regulatory reasons.
       </p>
 
       <h2 className="text-2xl  font-bold pb-4 mt-4">Contact Us</h2>
 
-      <p className="pb-6  font-thin text-lg">
+      <p className="pb-6   font-normal text-lg border-b-2">
         For more information about our privacy practices, if you have questions,
         or if you would like to make a complaint, please reach out to us via
         email at{" "}

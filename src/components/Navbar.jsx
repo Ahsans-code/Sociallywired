@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import { useRef } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../assets/logo/512x512.png";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const dropdownRef = useRef(null);
-
+  const navigate = useNavigate()
   const handleClick = () => {
     setMenu(!menu);
   };
@@ -20,6 +21,9 @@ const Navbar = () => {
       setMenu(false);
     }
   };
+  const handleScrollTo = (sectionId) => {
+    navigate("/", { state: sectionId })
+  }
 
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
@@ -33,15 +37,18 @@ const Navbar = () => {
       <div className="hidden px-[5rem] sm:flex flex-wrap p-5 flex-col md:flex-row   max-lg:gap-6 items-center pb-16">
         <div className=" lg:w-2/5 items-center flex justify-start border-b ">
           <nav className="flex   text-lg   gap-8  pb-2">
-            <a href="#services" className=" cursor-pointer font-semibold">
+            <a onClick={() => handleScrollTo("services")} className=" cursor-pointer font-semibold">
               Services
             </a>
-            <a href="#work" className=" cursor-pointer font-semibold">
+            <a onClick={() => handleScrollTo("work")}  className=" cursor-pointer font-semibold">
               Work
             </a>
-            <a href="#about" className=" cursor-pointer font-semibold">
+            <a onClick={() => handleScrollTo("about")}  className=" cursor-pointer font-semibold">
               About
             </a>
+            {/* <Link to={'/privacy-policy'} className=" cursor-pointer font-semibold">
+              Policy
+            </Link> */}
           </nav>
         </div>
         <a
