@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
 import './Component.css'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import { work1, work2, work3 } from "../assets/Index";
 const images = [
-  work1,work2,work3, work1,work2,work3];
+  work1, work2, work3, work1, work2, work3];
 
 const CreativeWorks = () => {
   const [currentIndex, setCurrentIndex] = useState(1); // Start at the first "real" slide
@@ -39,8 +43,8 @@ const CreativeWorks = () => {
     } else if (currentIndex === totalSlides + 1) {
       setCurrentIndex(1);
     }
-  
-    
+
+
   };
 
   const getSlides = () => {
@@ -52,7 +56,17 @@ const CreativeWorks = () => {
   };
 
   const slides = getSlides();
-
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    pauseOnHover: false
+  };
   return (
     <>
       <div
@@ -77,9 +91,9 @@ const CreativeWorks = () => {
           </p>
           <h1 className="text-5xl font-bold capitalize">Creative works</h1>
         </div>
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-20 w-full container mx-auto pb-8">
+        <div className=" max-lg:hidden flex flex-col lg:flex-row items-center justify-center gap-20 w-full container mx-auto pb-8">
           {/* Navigation Buttons */}
-            {/* <div className="flex flex-row lg:flex-col items-center gap-4 max-lg:order-2">
+          {/* <div className="flex flex-row lg:flex-col items-center gap-4 max-lg:order-2">
               <button
                 className="p-5 md:p-10 lg:p-14 bg-white rounded-3xl shadow"
                 onClick={prevSlide}
@@ -107,18 +121,16 @@ const CreativeWorks = () => {
             <div
               className="flex items-center transition-transform duration-[1000ms] ease-in-out"
               style={{
-                transform: `translateX(-${
-                  currentIndex * (isLgScreen ? 458 : 390)
-                }px)`,
+                transform: `translateX(-${currentIndex * (isLgScreen ? 458 : 390)
+                  }px)`,
               }}
               onTransitionEnd={handleTransitionEnd}
             >
               {slides.map((src, index) => (
                 <div
                   key={index}
-                  className={`max-lg:w-screen h-full px-3 lg:pr-52 flex-shrink-0 flex items-center justify-center transition-transform duration-[1600ms] ${
-                    currentIndex === index ? "lg:scale-150" : "lg:scale-100"
-                  }`}
+                  className={`max-lg:w-screen h-full px-3 lg:pr-52 flex-shrink-0 flex items-center justify-center transition-transform duration-[1600ms] ${currentIndex === index ? "lg:scale-150" : "lg:scale-100"
+                    }`}
                 >
                   <div className="w-full h-full lg:w-[250px] lg:h-[70vh] p-6 lg:p-8 bg-white hover:bg-custom-gradient rounded-3xl overflow-hidden transition-all duration-500 ease-in-out"
                   >
@@ -134,6 +146,26 @@ const CreativeWorks = () => {
               ))}
             </div>
           </div>
+        </div>
+        <div className="slider-container lg:hidden">
+          <Slider {...settings}>
+            {slides.map((src, index) => (
+              <div className="w-full  p-6 ">
+                <div className="w-full  p-6 lg:p-8 bg-white hover:bg-custom-gradient rounded-3xl overflow-hidden transition-all duration-500 ease-in-out"
+                >
+
+                  <div className="overflow-hidden w-full  rounded-3xl">
+                    <img
+                      src={src}
+                      alt={`Slide ${index + 1}`}
+                      className="w-full h-full object-cover hover:scale-110 hover:-rotate-3 transition-transform duration-500 ease-in-out"
+                    />
+                  </div>
+                </div>
+              </div>
+            ))}
+
+          </Slider>
         </div>
       </div>
     </>
