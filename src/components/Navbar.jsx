@@ -122,13 +122,13 @@ const Navbar = () => {
             className="absolute w-[300px] top-[6rem] right-10 bg-[#362C52] border border-[#7959DA] rounded-2xl p-4 z-50"
           >
             <ul className="cursor-pointer flex flex-col">
-              <a href="#services" onClick={handleItemClick} className="mb-2">
+              <a onClick={() => handleScrollTo("services")} className="mb-2">
                 Services
               </a>
-              <a href="#work" onClick={handleItemClick} className="mb-2">
+              <a onClick={() => handleScrollTo("work")}  className="mb-2">
                 Work
               </a>
-              <a href="#about" onClick={handleItemClick}>
+              <a onClick={() => handleScrollTo("about")} >
                 About
               </a>
             </ul>
