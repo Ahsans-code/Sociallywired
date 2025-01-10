@@ -16,7 +16,6 @@ const Hero = () => {
             "url('https://cdn.prod.website-files.com/66964d12f0212962622e6bd4/669770eddbcf5f504ef99354_hero-01.jpg')",
         }}
       ></div>
-
       {/* Content Layer */}
       <div className="relative z-10">
         {/* Top Section */}

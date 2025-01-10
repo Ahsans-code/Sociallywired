@@ -11,7 +11,7 @@ export default {
         'custom-gradient': 'linear-gradient(to bottom, #fff500, #9c4ffe)',
         
       },
-      boxShadow:{"box-shadow-mobile":" inset 100px -13px 400px 100px #1a1a19",
+      boxShadow:{"box-shadow-mobile":" inset 0px -13px 400px 100px #1a1a19",
         "box-shadow-desktop":"inset 0 -50px 500px #1a1a19, inset 0 200px 500px #1a1a19"
       }
     },
