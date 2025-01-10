@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
     window.scrollTo(0,0)
   },[])
   return (
-    <div className=" sm:p-10 sm:px-40 m-6 sm:py-32">
+    <div className=" pt-28 sm:p-10 sm:px-40 m-6 sm:py-32">
       <h1 className="text-5xl  font-bold pb-6 text-center">Privacy Policy</h1>
 
       <p className="pb-6  font-normal text-lg border-b-2 ">
