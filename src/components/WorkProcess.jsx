@@ -10,7 +10,7 @@ export default function WorkProcess() {
   return (
     <div
       id="services"
-      className="pt-20 flex flex-col lg:flex-row items-start justify-center bg-[#141412]"
+      className="pt-4 md:pt-10 lg:pt-20 flex flex-col lg:flex-row items-start justify-center bg-[#141412]"
     >
       <div className="text-white text-center w-full lg:w-1/3 pb-14 py-10 px-6 lg:sticky top-0">
         <h1 className="text-5xl font-bold capitalize">Services</h1>
@@ -18,9 +18,9 @@ export default function WorkProcess() {
       </div>
       <section
         ref={targetRef}
-        className="relative h-[240vh] lg:h-[200vh] w-full lg:w-2/3 max-lg:px-6 "
+        className="relative  lg:h-[200vh] w-full lg:w-2/3 max-lg:px-6 "
       >
-        <div className="lg:sticky top-0 lg:flex  h-screen items-center lg:overflow-hidden">
+        <div className="lg:sticky top-0 lg:flex  lg:h-screen items-center lg:overflow-hidden">
           <motion.div
             style={{
               x: window.innerWidth >= 1024 ? x : "0%",

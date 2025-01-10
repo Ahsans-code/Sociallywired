@@ -4,7 +4,7 @@ import { aboutVideo1, aboutVideo2 } from "../assets/Index";
 const Videos = () => {
   return (
     <>
-      <section id="about" className="sm:px-10  py-[6rem] bg-[#1A1A19]">
+      <section id="about" className="sm:px-10 py-4 md:py-10  lg:py-[6rem] bg-[#1A1A19]">
         <h1 className="text-center text-2xl font-bold mb-8">About Us</h1>
         <div className="flex flex-col lg:flex-row items-center lg:items-stretch ">
           {/* Left Section */}
@@ -40,9 +40,9 @@ const Videos = () => {
           <div className="lg:w-1/4 p-4">
             <div className="flex flex-col items-center gap-8 sm:gap-[10rem]">
               <div className="flex flex-col items-start gap-4">
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">
+                {/* <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center">
                   500+
-                </h1>
+                </h1> */}
                 <h1 className="text-sm sm:text-base font-base text-[#aca0cf]">
                   Successful events planned
                 </h1>

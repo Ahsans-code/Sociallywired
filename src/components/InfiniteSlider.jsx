@@ -16,7 +16,7 @@ const sliderImages = [
 
 const InfiniteSlider = () => {
   return (
-    <div className="slider-container py-16 bg-gradient-to-b from-[#141412] to-[#1A1A19]">
+    <div className="slider-container  py-16 bg-gradient-to-b from-[#141412] to-[#1A1A19]">
       <h1 className="text-5xl font-bold text-center capitalize w-full lg:w-1/3  pb-6 pl-11">Our Clients</h1>
       <div className="">
         <Slider duration={18}>

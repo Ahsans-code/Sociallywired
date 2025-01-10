@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="relative p-4 sm:pt-32 sm:p-8 h-[500px] sm:h-screen flex flex-col justify-center"
+      className="relative max-md:pt-32 p-4 sm:pt-32 sm:p-8 lg:h-[500px] h-[90vh] flex flex-col md:justify-center"
     >
       {/* Background Layer */}
 
