@@ -71,7 +71,7 @@ const Contact = () => {
   return (
     <section
       className="px-4 py-6 my-4 md:px-16 md:py-12 md:my-8"
-      id="contact-us"
+      
     >
       <Toaster  />
 
@@ -102,11 +102,11 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <div className="md:w-1/2 text-black p-6 flex flex-col rounded-lg">
+        <div id="contact-us" className="md:w-1/2 text-black p-6 flex flex-col rounded-lg">
           <div className="text-3xl flex justify-center items-center my-4 rounded-full bg-black p-2 w-[70px] h-[70px] mx-auto">
             <FaPaperPlane className="text-white" />
           </div>
-          <h3 className="text-2xl text-white font-bold mb-6 text-center">
+          <h3  className="text-2xl text-white font-bold mb-6 text-center">
             Send us a message
           </h3>
           <form onSubmit={handleSubmit} className="space-y-4">

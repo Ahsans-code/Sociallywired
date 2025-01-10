@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <header className="z-20 sm:absolute top-0 left-0 w-full">
-      <div className="hidden px-[5rem] sm:flex flex-wrap p-5 flex-col md:flex-row   max-lg:gap-6 items-center pb-16">
+      <div className="hidden px-[5rem] sm:flex flex-wrap p-5 flex-col md:flex-row justify-between  max-lg:gap-6 items-center pb-16">
         <div className=" lg:w-2/5 items-center flex justify-start border-b ">
           <nav className="flex   text-lg   gap-8  pb-2">
             <a onClick={() => handleScrollTo("services")} className=" cursor-pointer font-semibold">
@@ -70,7 +70,7 @@ const Navbar = () => {
             }}
           >
             <span
-              className="block bg-[#1B1B1A] px-4 py-2 rounded-md hover:bg-transparent transition-all duration-300"
+              className="block bg-[#1B1B1A]  px-4 py-2 rounded-md hover:bg-transparent transition-all duration-300"
               style={{
                 backgroundClip: "padding-box",
               }}
@@ -80,21 +80,21 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-      <div className="p-5 flex sm:hidden items-center justify-between">
+      <div className="p-5 absolute w-full h-24 z-50 flex sm:hidden items-center justify-between">
         <div>
-          <a
-            href="/"
+          <Link
+            to={"/"}
             className="flex cursor-pointer  title-font font-medium items-center text-gray-900 "
           >
             <span className="w-16 rounded-full">
               <img src={logo} alt="" />{" "}
             </span>
-          </a>
+          </Link>
         </div>
         <div className="flex items-center gap-4">
           <a
             href="#contact-us"
-            className="relative p-[2px] rounded-md"
+            className="relative p-[2px] rounded-md max-sm:hidden"
             style={{
               background:
                 "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
