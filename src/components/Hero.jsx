@@ -11,7 +11,6 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center shadow-box-shadow-mobile md:shadow-box-shadow-desktop"
         style={{
-
           backgroundImage:
             "url('https://cdn.prod.website-files.com/66964d12f0212962622e6bd4/669770eddbcf5f504ef99354_hero-01.jpg')",
         }}
@@ -23,7 +22,7 @@ const Hero = () => {
           <div className="text-4xl lg:text-5xl font-semibold sm:text-center lg:text-left">
             Optimize and monetize social media marketing
           </div>
-          <div className="max-lg:text-2xl max-lg:font-semibold sm:text-center lg:text-left text-white max-lg:text-[#aca0cf] ">
+          <div className="max-lg:text-2xl text-white   max-md:font-semibold sm:text-center lg:text-left  max-md:text-[#aca0cf] ">
             Sociallywiredinc boosts creators' reach with curated content and
             tailored social media strategies for targeted audience growth.
           </div>
@@ -48,7 +47,7 @@ const Hero = () => {
             }}
           >
             <span
-              className="block text-xl bg-[#1B1B1A] px-5 py-3 rounded-md hover:bg-transparent transition-all duration-300"
+              className="md:hidden block text-xl bg-[#1B1B1A] px-5 py-3 rounded-md hover:bg-transparent transition-all duration-300"
               style={{
                 backgroundClip: "padding-box",
               }}

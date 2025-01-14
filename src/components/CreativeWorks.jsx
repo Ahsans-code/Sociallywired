@@ -27,15 +27,7 @@ const CreativeWorks = () => {
   }, []);
 
   // Automatically transition slides
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => prevIndex + 1);
-    }, 3000); // Change slides every 3 seconds
 
-    return () => {
-      clearInterval(interval); // Clear interval on unmount
-    };
-  }, []);
 
   const handleTransitionEnd = () => {
     if (currentIndex === 0) {
@@ -46,7 +38,16 @@ const CreativeWorks = () => {
 
 
   };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => {
+        const nextIndex = prevIndex + 1;
+        return nextIndex > totalSlides + 1 ? 1 : nextIndex;
+      });
+    }, 3000); // Change slides every 3 seconds
 
+    return () => clearInterval(interval);
+  }, []);
   const getSlides = () => {
     return [
       images[images.length - 1], // Clone last slide to the start

@@ -12,7 +12,7 @@ export default {
         
       },
       boxShadow:{"box-shadow-mobile":" inset 0px -13px 400px 100px #1a1a19",
-        "box-shadow-desktop":"inset 0 -50px 500px #1a1a19, inset 0 200px 500px #1a1a19"
+        "box-shadow-desktop":"rgb(26, 26, 25) 0px -100px 180px inset, rgb(26, 26, 25) 0px 300px 130px inset;"
       }
     },
   },

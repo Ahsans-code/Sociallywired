@@ -62,7 +62,7 @@ const Navbar = () => {
 
         <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
           <a
-            href="#contact-us"
+            onClick={() => handleScrollTo("contact-us")}
             className="relative p-[2px] rounded-md"
             style={{
               background:
