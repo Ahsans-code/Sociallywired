@@ -13,42 +13,45 @@ const SocialMediaLinks = () => (
     }}
   >
     {/* Top Social Links */}
-    <div className="flex flex-wrap gap-4 sm:gap-0 sm:flex-nowrap items-center justify-between border-b-2 pb-8">
+    <div className="flex   gap-4 sm:gap-0 sm:flex-nowrap items-center  justify-center sm:justify-between border-b-2 pb-8">
       <a
         href="https://www.instagram.com/sociallywiredinc/profilecard/?igsh=MTNnMnFzdWx1YW5pZQ%3D%3D"
         target="_blank"
-        className="flex text-lg sm:text-2xl items-center gap-2"
+        className="flex text-2xl items-center gap-2"
       >
         <img
-          className="w-6 sm:w-8"
+          className="w-8"
           src="https://cdn.prod.website-files.com/66964d12f0212962622e6bd4/6697510e294ac7131f0db08f_instagram.svg"
           alt="Instagram"
         />
-        Instagram
+        <span className="max-sm:hidden">Instagram</span>
+
       </a>
       <a
         target="_blank"
         href="https://www.facebook.com/people/Socially-wired-Inc/61565652324656/?mibextid=LQQJ4d&rdid=FQoeOoh5RUUpgRxQ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FCh4GsGhjoMJXrrVo%2F%3Fmibextid%3DLQQJ4d"
-        className="flex text-lg sm:text-2xl items-center gap-2"
+        className="flex text-2xl items-center gap-2"
       >
         <img
-          className="w-6 sm:w-8"
+          className="w-8"
           src="https://cdn.prod.website-files.com/66964d12f0212962622e6bd4/6697510ec7edab92c91c3113_facebook.svg"
           alt="Facebook"
         />
-        Facebook
+        <span className="max-sm:hidden">Facebook</span>
+
       </a>
       <a
         href="https://www.linkedin.com/company/socially-wired-inc/"
-        className="flex text-lg sm:text-2xl items-center gap-2"
+        className="flex text-2xl items-center gap-2"
         target="_blank"
       >
         <img
-          className="w-6 sm:w-8"
+          className="w-8"
           src="https://cdn.prod.website-files.com/66964d12f0212962622e6bd4/6697510fb122053d5e1a8d67_linkedin.svg"
           alt="LinkedIn"
         />
-        LinkedIn
+        <span className="max-sm:hidden">Linkedin</span>
+
       </a>
     </div>
     {/* Main Content Section */}
@@ -111,7 +114,7 @@ const SocialMediaLinks = () => (
               href="mailto:contact@example.com"
               className="text-base sm:text-lg"
             >
-              ©Techxudo All Rights Reserved
+              ©<strong>SociallyWired</strong> All Rights Reserved
             </a>
           </li>
         </ul>

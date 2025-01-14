@@ -19,11 +19,11 @@ const Hero = () => {
       {/* Content Layer */}
       <div className="relative z-10">
         {/* Top Section */}
-        <div className="sm:px-[3rem] flex flex-col lg:flex-row items-start gap-8 lg:gap-[10rem] justify-between">
+        <div className="sm:px-[3rem]  lg:pt-12 flex flex-col lg:flex-row items-start gap-8 lg:gap-[10rem] justify-between">
           <div className="text-4xl lg:text-5xl font-semibold sm:text-center lg:text-left">
             Optimize and monetize social media marketing
           </div>
-          <div className="text-2xl font-semibold sm:text-center lg:text-left text-[#aca0cf] ">
+          <div className="max-lg:text-2xl max-lg:font-semibold sm:text-center lg:text-left text-white max-lg:text-[#aca0cf] ">
             Sociallywiredinc boosts creators' reach with curated content and
             tailored social media strategies for targeted audience growth.
           </div>

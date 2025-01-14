@@ -129,10 +129,10 @@ const CreativeWorks = () => {
               {slides.map((src, index) => (
                 <div
                   key={index}
-                  className={`max-lg:w-screen h-full px-3 lg:pr-52 flex-shrink-0 flex items-center justify-center transition-transform duration-[1600ms] ${currentIndex === index ? "lg:scale-150" : "lg:scale-100"
+                  className={`max-lg:w-screen  px-3 lg:pr-52 flex-shrink-0 flex items-center justify-center transition-transform duration-[1600ms] ${currentIndex === index ? "lg:scale-150" : "lg:scale-100"
                     }`}
                 >
-                  <div className="w-full h-full lg:w-[250px] lg:h-[70vh] p-6 lg:p-8 bg-white hover:bg-custom-gradient rounded-3xl overflow-hidden transition-all duration-500 ease-in-out"
+                  <div className="w-full  lg:w-[250px] lg:h-[65vh] p-6  bg-white hover:bg-custom-gradient rounded-3xl overflow-hidden transition-all duration-500 ease-in-out"
                   >
                     <div className="overflow-hidden w-full h-full rounded-3xl">
                       <img
@@ -158,7 +158,7 @@ const CreativeWorks = () => {
                     <img
                       src={src}
                       alt={`Slide ${index + 1}`}
-                      className="w-full h-full object-cover hover:scale-110 hover:-rotate-3 transition-transform duration-500 ease-in-out"
+                      className="w-full  object-cover hover:scale-110 hover:-rotate-3 transition-transform duration-500 ease-in-out"
                     />
                   </div>
                 </div>
