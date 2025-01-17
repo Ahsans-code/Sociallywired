@@ -7,7 +7,7 @@ import {Footer, Navbar, PrivacyPolicy, ScrollToTop }from "./components/Component
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home/>} />

@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
-import {ContactForm, CreativeWorks, Hero, InfiniteSlider, Videos, WorkProcess }from "../../components/Components";
+import { AnimateCards, ContactForm, CreativeWorks, Hero, InfiniteSlider, Videos, WorkProcess } from "../../components/Components";
 import { useEffect } from "react";
+import Test from "../../components/Test";
 
 
 export default function Home() {
@@ -17,6 +18,8 @@ export default function Home() {
   return (
     <>
       <div>
+        <Test/>
+        <AnimateCards />
         <Hero />
         <WorkProcess />
         <InfiniteSlider />

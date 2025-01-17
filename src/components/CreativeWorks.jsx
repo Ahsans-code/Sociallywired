@@ -3,8 +3,8 @@ import './Component.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import { work1, work2, work3 } from "../assets/Index";
+
 const images = [
   work1, work2, work3, work1, work2, work3];
 

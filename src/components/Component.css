@@ -1,3 +1,26 @@
-.custom-hover{
-    background-image: linear-gradient(to bottom , #fff500, #9c4ffe);
+.custom-hover {
+    background-image: linear-gradient(to bottom, #fff500, #9c4ffe);
+}
+
+@keyframes vertical {
+    0% {
+        transform: translateY(-5%);
+    }
+    25% {
+        transform: translateY(5%);
+    }
+    50% {
+        transform: translateY(-5%);
+    }
+
+    100% {
+        transform: translateY(5%);
+    }
+}
+
+.animate {
+    animation-name: vertical;
+    animation-duration:1s ;
+    animation-delay: 1000ms;
+    animation-iteration-count: infinite;
 }
