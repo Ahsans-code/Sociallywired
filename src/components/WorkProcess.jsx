@@ -10,7 +10,7 @@ export default function WorkProcess() {
   return (
     <div
       id="services"
-      className="pt-4 md:pt-10 lg:pt-20 flex flex-col lg:flex-row items-start justify-center bg-[#141412]"
+      className="py-7 md:pt-10 lg:pt-20 flex flex-col lg:flex-row items-start justify-center bg-[#141412]"
     >
       <div className="text-white text-center w-full lg:w-1/3 pb-14 py-10 px-6 lg:sticky top-0">
         <h1 className="text-5xl font-bold capitalize">Services</h1>

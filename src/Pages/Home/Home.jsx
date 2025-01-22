@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { AnimateCards, ContactForm, CreativeWorks, Hero, InfiniteSlider, Videos, WorkProcess } from "../../components/Components";
+import { About, AnimateCards, ContactForm, CreativeWorks, Hero, Hero2, InfiniteSlider, Statistics, Videos, WorkProcess } from "../../components/Components";
 import { useEffect } from "react";
 import Test from "../../components/Test";
 
@@ -18,13 +18,16 @@ export default function Home() {
   return (
     <>
       <div>
-        <Test/>
-        <AnimateCards />
-        <Hero />
+        {/* <Test/> */}
+        <Hero2/>
+        {/* <AnimateCards />
+        <Hero /> */}
         <WorkProcess />
-        <InfiniteSlider />
-        <Videos />
+       <Statistics/>
+       <About/>
+        {/* <Videos /> */}
         <CreativeWorks />
+        <InfiniteSlider />
         {/* <CardVerticalSlider /> */}
         <ContactForm />
       </div>
