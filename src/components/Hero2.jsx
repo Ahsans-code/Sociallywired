@@ -36,7 +36,7 @@ export default function Hero2() {
                         backgroundImage:
                             "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
                     }}
-                    >S<img className='w-16 lg:w-32  lg:mt-2 animate-spin duration-1000   ' src={RoundCircle} alt="" />cially</span>Wired
+                    >S<img className='w-16 lg:w-[90px]   animate-spin duration-1000   ' src={RoundCircle} alt="" />cially</span>Wired
 
                 </div>
                 <p className='text-lg md:text-2xl px-6 lg:px-44 text-center '> Sociallywiredinc boosts creators' reach with curated content and
