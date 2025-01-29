@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        home:'#1b1b1a',
         first: '#733b8f',
         second: '#5b56af',
         third:"#0eadee"

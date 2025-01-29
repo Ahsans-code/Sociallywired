@@ -70,7 +70,7 @@ const Contact = () => {
 
   return (
     <section
-      className="px-4 py-6 my-4 md:px-16 md:py-12 md:my-8 bg-black"
+      className="px-4 py-6 my-4 md:px-16 md:py-12 md:my-8  h-fit "
       
     >
       <Toaster  />

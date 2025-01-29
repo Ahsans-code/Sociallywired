@@ -8,6 +8,8 @@ export {default as RoundCircle} from './RoundCircle.svg'
 export {default as aboutVideo1} from './aboutVideo1.mp4'
 export {default as aboutVideo2} from './aboutVideo2.mp4'
 export {default as work3} from './work3.jpeg'
+export {default as HeroAnimation} from './HeroAnimation.gif'
+export {default as HeroAnimation2} from './HeroAnimation2.png'
 export {default as slider1} from "./sliderLogo/GE_vertical-1-1024x779.png";
 export {default as slider2} from "./sliderLogo/logo_light.webp";
 export {default as slider3} from "./sliderLogo/Untitled-design-2023-11-06T133839.479 (1).webp";

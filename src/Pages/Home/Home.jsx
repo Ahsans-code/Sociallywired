@@ -17,23 +17,35 @@ export default function Home() {
   }, [location]);
   return (
     <>
-      <div>
+      <div className="relative">
+
         {/* <Test/> */}
-        <Hero2/>
+        <div className="z-10 sticky top-0">
+        <Hero2 />
+
+        </div>
         {/* <AnimateCards /> */}
+        <div className="z-20 sticky top-0 left-0"><About /></div>
+      
+          <Statistics />
+      
+        <div className="z-30 sticky bg-home">
+          <WorkProcess />
+        </div>
 
-       <About/>
-       <Statistics/>
-       <WorkProcess />
-
-       <CreativeWorks />
+        <div className="z-40 relative top-0 left-0 ">
+          <CreativeWorks />
+        </div>
+        <div className="z-50 relative top-0 left-0  bg-black border-[1px] border-transparent">
+          <ContactForm />
+        </div>
         {/* <Hero /> */}
-       
+
         {/* <Videos /> */}
-        
+
         {/* <InfiniteSlider /> */}
         {/* <CardVerticalSlider /> */}
-        <ContactForm />
+
       </div>
     </>
   );

@@ -72,7 +72,7 @@ const CreativeWorks = () => {
     <>
       <div
         id="work"
-        className="py-4 md:py-8"
+        className="py-4 md:py-8 h-auto"
         style={{
           boxShadow:
             "inset 0 -300px 180px #1a1a19, inset 0 300px 130px #1a1a19",
