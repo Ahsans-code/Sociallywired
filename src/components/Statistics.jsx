@@ -12,64 +12,40 @@ export default function Statistics() {
                 <div className='flex flex-col items-center justify-center border-r'
 
                 >
-                    <p className='text-lg md:text-2xl font-bold bg-clip-text text-clip text-transparent'
+                    <p className='bg-custom-gradient text-lg md:text-2xl font-bold bg-clip-text text-clip text-transparent'
 
-                        style={{
-                            backgroundImage:
-                                "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                        }}
+                        
                         >5M+</p>
-                    <p className='max-md:text-sm bg-clip-text text-clip text-transparent'
-                    style={{
-                        backgroundImage:
-                            "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}
+                    <p className='bg-custom-gradient max-md:text-sm bg-clip-text text-clip text-transparent'
+                    
                     >Customer</p>
                 </div>
                 <div className='flex flex-col items-center justify-center border-r'>
-                    <p className='text-lg md:text-2xl font-bold bg-clip-text text-clip text-transparent'
-                     style={{
-                        backgroundImage:
-                            "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}>450M+</p>
-                    <p className='max-md:text-sm bg-clip-text text-clip text-transparent' 
-                    style={{
-                        backgroundImage:
-                            "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}>Coverage</p>
+                    <p className='bg-custom-gradient text-lg md:text-2xl font-bold bg-clip-text text-clip text-transparent'
+                    >450M+</p>
+                    <p className='bg-custom-gradient max-md:text-sm bg-clip-text text-clip text-transparent' 
+                    >Coverage</p>
                 </div>
                 <div className='flex flex-col items-center justify-center border-r'>
-                    <p className='text-lg md:text-2xl font-bold bg-clip-text text-clip text-transparent '
-                     style={{
-                        backgroundImage:
-                            "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}>22%</p>
-                    <p className='max-md:text-sm bg-clip-text text-clip text-transparent' 
-                    style={{
-                        backgroundImage:
-                            "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}>Earning</p> 
+                    <p className='bg-custom-gradient text-lg md:text-2xl font-bold bg-clip-text text-clip text-transparent '
+                    >22%</p>
+                    <p className='bg-custom-gradient max-md:text-sm bg-clip-text text-clip text-transparent' 
+                   >Earning</p> 
                 </div>
                 <div className='flex flex-col items-center justify-center '>
-                    <p className='text-lg md:text-2xl font-bold bg-clip-text text-clip text-transparent'
-                     style={{
-                        backgroundImage:
-                            "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}>8.03%</p>
-                    <p className='max-md:text-sm bg-clip-text text-clip text-transparent'
-                    style={{
-                        backgroundImage:
-                            "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}>Interest</p>
+                    <p className='bg-custom-gradient text-lg md:text-2xl font-bold bg-clip-text text-clip text-transparent'
+                    >8.03%</p>
+                    <p className='bg-custom-gradient max-md:text-sm bg-clip-text text-clip text-transparent'
+                    >Interest</p>
                 </div>
             </div>
-            <div
+            {/* <div
                 className=' w-full bg-cover bg-center  h-16  '
                 style={{
                     backgroundImage: `url(${whitePattern})`
                 }}>
 
-            </div>
+            </div> */}
 
         </div>
     )

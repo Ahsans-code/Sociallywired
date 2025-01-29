@@ -20,14 +20,18 @@ export default function Home() {
       <div>
         {/* <Test/> */}
         <Hero2/>
-        {/* <AnimateCards />
-        <Hero /> */}
-        <WorkProcess />
-       <Statistics/>
+        {/* <AnimateCards /> */}
+
        <About/>
+       <Statistics/>
+       <WorkProcess />
+
+       <CreativeWorks />
+        {/* <Hero /> */}
+       
         {/* <Videos /> */}
-        <CreativeWorks />
-        <InfiniteSlider />
+        
+        {/* <InfiniteSlider /> */}
         {/* <CardVerticalSlider /> */}
         <ContactForm />
       </div>

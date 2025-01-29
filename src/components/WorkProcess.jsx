@@ -31,11 +31,8 @@ export default function WorkProcess() {
               <div className=" max-lg:pb-11 lg:w-1/2 lg:h-1/2 flex flex-col justify-start items-start  gap-6 ">
                 <div className="relative pl-7">
                   <p
-                    className=" text-end text-clip bg-clip-text text-transparent font-extrabold text-9xl "
-                    style={{
-                      backgroundImage:
-                        "linear-gradient(160deg, #a388f5,#6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}
+                    className=" text-end text-clip bg-clip-text text-transparent bg-custom-gradient-br font-extrabold text-9xl "
+                   
                   >
                     01
                   </p>
@@ -55,11 +52,8 @@ export default function WorkProcess() {
               <div className="max-lg:pb-11 lg:w-1/2 lg:h-1/2 self-end flex flex-col justify-end items-start lg:items-end">
                 <div className="relative pl-7 self-start">
                   <p
-                    className=" text-end text-clip bg-clip-text text-transparent font-extrabold text-9xl "
-                    style={{
-                      backgroundImage:
-                        "linear-gradient(160deg, #a388f5,#6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}
+                    className=" text-end text-clip bg-clip-text text-transparent bg-custom-gradient-br font-extrabold text-9xl "
+                   
                   >
                     02
                   </p>
@@ -82,11 +76,8 @@ export default function WorkProcess() {
               <div className="max-lg:pb-11 w-full lg:w-1/2 lg:h-1/2 flex flex-col justify-start items-start  gap-6 ">
                 <div className="relative pl-7">
                   <p
-                    className=" text-end text-clip bg-clip-text text-transparent font-extrabold text-9xl "
-                    style={{
-                      backgroundImage:
-                        "linear-gradient(160deg, #a388f5,#6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}
+                    className=" text-end text-clip bg-clip-text text-transparent bg-custom-gradient-br font-extrabold text-9xl "
+                    
                   >
                     03
                   </p>
@@ -106,11 +97,8 @@ export default function WorkProcess() {
               <div className="w-full lg:w-1/2 lg:h-1/2 flex flex-col self-end justify-end items-start lg:items-end">
                 <div className="relative pl-7 slg:elf-start">
                   <p
-                    className="  text-clip bg-clip-text text-transparent font-extrabold text-9xl "
-                    style={{
-                      backgroundImage:
-                        "linear-gradient(160deg, #a388f5,#6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                    }}
+                    className="  text-clip bg-clip-text text-transparent bg-custom-gradient-br font-extrabold text-9xl "
+                   
                   >
                     04
                   </p>

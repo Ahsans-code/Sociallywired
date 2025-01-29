@@ -56,7 +56,7 @@ const Navbar = () => {
 
   return (
 
-    <Headroom ref={header} className="z-[999] absolute top-0 left-0 w-full    ">
+    <div className="fixed z-[999] w-full">
       <motion.div className=" hidden md:flex w-full p-8 lg:px-28 ">
         <div className="px-10 w-full flex backdrop-blur-md bg-gray-500 bg-opacity-30 rounded-2xl justify-between   max-lg:gap-6 items-center shadow-xl  ">
           <div className=" lg:w-2/5 items-center flex justify-start  ">
@@ -147,13 +147,13 @@ const Navbar = () => {
         </div>
       </motion.div>
       <div className="p-5 w-full">
-        <div className="p-5 backdrop-blur-md bg-gray-500 bg-opacity-30 rounded-2xl   w-full  z-50 flex md:hidden items-center justify-between">
+        <div className="px-4 py-2 backdrop-blur-md bg-gray-500 bg-opacity-30 rounded-2xl   w-full  z-50 flex md:hidden items-center justify-between">
           <div>
             <Link
               to={"/"}
               className="flex cursor-pointer  title-font font-medium items-center text-gray-900 "
             >
-              <span className="w-16 rounded-full">
+              <span className="w-12 rounded-full">
                 <img src={logo} alt="" />{" "}
               </span>
             </Link>
@@ -177,10 +177,11 @@ const Navbar = () => {
               </span>
             </a>
             <div
+            
               onClick={handleClick}
-              className="bg-[#7959DA] p-4 rounded-full cursor-pointer hover:bg-[#ACA0CF]"
+              className="bg-[#7959DA] p-3 rounded-full cursor-pointer hover:bg-[#ACA0CF]"
             >
-              <GiHamburgerMenu />
+              <GiHamburgerMenu className="" />
             </div>
           </div>
           {menu && (
@@ -203,9 +204,10 @@ const Navbar = () => {
           )}
         </div>
       </div>
+      </div>
 
 
-    </Headroom>
+   
 
   );
 };

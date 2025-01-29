@@ -145,11 +145,8 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              className="relative p-[2px] rounded-md"
-              style={{
-                background:
-                  "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-              }}
+              className="relative p-[2px] rounded-md bg-custom-gradient-tr"
+             
             >
               <span
                 className="block bg-[#1B1B1A] px-4 py-2 rounded-md hover:bg-transparent transition-all duration-300"

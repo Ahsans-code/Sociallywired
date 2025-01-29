@@ -9,12 +9,9 @@ export default function About() {
     return (
         <div id='about' className='relative'>
             <div className='absolute -top-12 flex items-center justify-center w-full '>
-                <div className='p-2 rounded-full shadow-2xl'
+                <div className='p-2 rounded-full shadow-2xl bg-custom-gradient-br'
                 onClick={()=>handleScrollTo("work")}
-                 style={{
-                    backgroundImage:
-                        "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                }}>
+                 >
                     <div className='p-4 bg-[#1b1b1a] rotate-90 rounded-full'>
                         <MdDoubleArrow className='bg-clip-text text-clip text-transparent '
                         />
@@ -33,11 +30,8 @@ export default function About() {
                     <p className='text-black text-xl'>Sociallywiredinc is a group of dedicated and innovative social media management experts that works with various content creators to help them raise the scope and reach of their platforms through curated, engaging content and optimized media marketing strategies. We owe our success to our ability to use ever-evolving approaches to create personalized game plans for each client and their target demographic.</p>
                     <a
                         onClick={() => handleScrollTo("contact-us")}
-                        className="relative p-[2px] rounded-md w-fit"
-                        style={{
-                            background:
-                                "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-                        }}
+                        className="relative p-[2px] rounded-md w-fit bg-custom-gradient-tr"
+                        
                     >
                         <span
                             className="block bg-[#1B1B1A]  px-4 py-2 rounded-md hover:bg-transparent transition-all duration-300"
