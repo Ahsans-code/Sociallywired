@@ -8,7 +8,7 @@ export default function About() {
     }
     return (
         <div id='about' className='relative'>
-            <div className='absolute -top-12 flex items-center justify-center w-full '>
+            {/* <div className='absolute -top-12 flex items-center justify-center w-full '>
                 <div className='p-2 rounded-full shadow-2xl bg-custom-gradient-br'
                 onClick={()=>handleScrollTo("work")}
                  >
@@ -19,7 +19,7 @@ export default function About() {
                 </div>
 
 
-            </div>
+            </div> */}
             <h1 className="text-5xl font-bold capitalize bg-white text-center text-[#1b1b1a] pt-14">About us</h1>
 
             <div className='bg-white grid grid-cols-1 lg:grid-cols-2 px-5 md:px-10 lg::px-28 py-10 lg:py-20'>
