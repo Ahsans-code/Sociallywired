@@ -12,7 +12,7 @@ export default function WorkProcess() {
       id="services"
       className="py-7 flex flex-col lg:flex-row items-start justify-center  "
     >
-      <div className="md:pt-10 lg:pt-20  text-white h-screen text-center bg-home w-full lg:w-1/3 pb-14 py-10 px-6 lg:sticky top-0">
+      <div className="md:pt-10 lg:pt-20  text-white lg:h-screen text-center bg-home w-full lg:w-1/3 pb-14 py-10 px-6 lg:sticky top-0">
         <h1 className="text-5xl font-bold capitalize">Services</h1>
 
       </div>
