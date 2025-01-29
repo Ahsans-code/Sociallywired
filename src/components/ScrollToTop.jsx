@@ -32,17 +32,14 @@ const ScrollToTop = () => {
     <>
       <button
         onClick={scrollToTop}
-        className={` p-[2px] z-50 fixed bottom-4 right-4 rounded-md ${
+        className={` p-[2px] z-[999] fixed bottom-4 right-4 rounded-md bg-custom-gradient-t ${
           isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
-        style={{
-          background:
-            "linear-gradient(160deg, #a388f5, #6ae8ff 22%, #fff694 52%, #fc67ff 83%)",
-        }}
+       
       >
         <span
           className="block bg-[#1B1B1A] p-3 rounded-md hover:bg-transparent transition-all duration-300"
-          style={{
+          style={{  
             backgroundClip: "padding-box",
           }}
         >

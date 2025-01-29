@@ -58,7 +58,7 @@ const Navbar = () => {
 
     <div className="fixed z-[999] w-full">
       <motion.div className=" hidden md:flex w-full p-8 lg:px-28 ">
-        <div className="px-10 w-full flex backdrop-blur-md bg-gray-500 bg-opacity-30 rounded-2xl justify-between   max-lg:gap-6 items-center shadow-xl  ">
+        <div className="px-10 w-full flex backdrop-blur-md   bg-gray-500 bg-opacity-30 rounded-2xl justify-between   max-lg:gap-6 items-center shadow-xl  ">
           <div className=" lg:w-2/5 items-center flex justify-start  ">
             <nav className="flex  text-lg uppercase justify-between w-full  lg:pr-20 gap-8   hero-heading">
               <a onClick={() => handleScrollTo("services")} className=" cursor-pointer ">
@@ -147,7 +147,7 @@ const Navbar = () => {
         </div>
       </motion.div>
       <div className="p-5 w-full">
-        <div className="px-4 py-2 backdrop-blur-md bg-gray-500 bg-opacity-30 rounded-2xl   w-full  z-50 flex md:hidden items-center justify-between">
+        <div className="px-4 py-2 backdrop-blur-sm bg-gray-500 bg-opacity-30 rounded-2xl   w-full  z-50 flex md:hidden items-center justify-between">
           <div>
             <Link
               to={"/"}

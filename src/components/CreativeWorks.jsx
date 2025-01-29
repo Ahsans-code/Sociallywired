@@ -133,7 +133,7 @@ const CreativeWorks = () => {
                   className={`max-lg:w-screen  px-3 lg:pr-52 flex-shrink-0 flex items-center justify-center transition-transform duration-[1600ms] ${currentIndex === index ? "lg:scale-150" : "lg:scale-100"
                     }`}
                 >
-                  <div className="w-full  lg:w-[250px] lg:h-[65vh] p-6  bg-white hover:bg-custom-gradient rounded-3xl overflow-hidden transition-all duration-500 ease-in-out"
+                  <div className="w-full  lg:w-[250px] lg:h-[65vh] p-6  bg-white hover:bg-custom-gradient-tr rounded-3xl overflow-hidden transition-all duration-500 ease-in-out"
                   >
                     <div className="overflow-hidden w-full h-full rounded-3xl">
                       <img
@@ -152,7 +152,7 @@ const CreativeWorks = () => {
           <Slider {...settings}>
             {slides.map((src, index) => (
               <div className="w-full  p-6 ">
-                <div className="w-full  p-6 lg:p-8 bg-white hover:bg-custom-gradient rounded-3xl overflow-hidden transition-all duration-500 ease-in-out"
+                <div className="w-full  p-6 lg:p-8 bg-white hover:bg-custom-gradient-tr rounded-3xl overflow-hidden transition-all duration-500 ease-in-out"
                 >
 
                   <div className="overflow-hidden w-full  rounded-3xl">

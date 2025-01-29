@@ -27,7 +27,7 @@ export default function Home() {
         {/* <AnimateCards /> */}
         <div className="z-20 sticky top-0 left-0"><About /></div>
       
-          <Statistics />
+          <div className="relative z-30"><Statistics /></div>
       
         <div className="z-30 sticky bg-home">
           <WorkProcess />
