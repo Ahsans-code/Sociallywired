@@ -70,9 +70,12 @@ const Navbar = () => {
               <a onClick={() => handleScrollTo("about")} className=" cursor-pointer ">
                 About
               </a>
-              <a onClick={() => handleScrollTo("our-clients")} className=" cursor-pointer ">
-                Clients
+              <a onClick={() => handleScrollTo("contact-us")}className=" cursor-pointer ">
+                Contact
               </a>
+              {/* <a onClick={() => handleScrollTo("our-clients")} className=" cursor-pointer ">
+                Clients
+              </a> */}
               {/* <Link to={'/privacy-policy'} className=" cursor-pointer font-semibold">
               Policy
             </Link> */}
